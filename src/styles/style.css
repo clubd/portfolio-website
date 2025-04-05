@@ -125,7 +125,7 @@ span {
     box-shadow: 0 0 1rem var(--main-color);
 }
 
-.btn__cv {
+.btn {
     display: inline-block;
     padding: 1rem 2.8rem;
     background: var(--main-color);
@@ -167,17 +167,4 @@ span {
 .about__content p {
     font-size: 2rem;
     margin: 2rem 0 3rem;
-}
-
-.btn__read {
-    display: inline-block;
-    padding: 1rem 2.8rem;
-    background: var(--main-color);
-    border-radius: 4rem;
-    box-shadow: 0 0 1rem var(--main-color);
-    font-size: 2rem;
-    color: var(--second-bg-color);
-    letter-spacing: 0.1rem;
-    font-weight: 600;
-    transition: 0.5s ease;
 }
