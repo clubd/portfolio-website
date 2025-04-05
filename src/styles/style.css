@@ -101,7 +101,7 @@ section {
     align-items: center;
     width: 4rem;
     height: 4rem;
-    background: transparent;
+    background: var(--bg-color);
     border: 0.2rem solid var(--main-color);
     border-radius: 50%;
     font-size: 2rem;
