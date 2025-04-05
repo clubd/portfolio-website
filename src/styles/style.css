@@ -101,12 +101,13 @@ section {
     align-items: center;
     width: 4rem;
     height: 4rem;
-    background: var(--bg-color);
+    background: transparent;
     border: 0.2rem solid var(--main-color);
     border-radius: 50%;
     font-size: 2rem;
     color: var(--main-color);
     margin: 3rem 1.5rem 3rem 0;
+    transition: 0.5 ease;
 }
 
 .social__media-img {
