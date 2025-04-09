@@ -255,7 +255,7 @@ span {
     text-align: center;
     padding: 0 4rem;
     transform: translateY(100%);
-    transition: 0.5s ease;
+    transition: 0.8s ease;
 }
 
 .portfolio-box:hover .portfolio-layer {
