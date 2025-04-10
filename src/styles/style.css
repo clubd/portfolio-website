@@ -327,3 +327,34 @@ span {
     margin-top: 2rem;
     cursor: pointer;
 }
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 9%;
+    background: var(--second-bg-color);
+}
+
+.footer-text p {
+    font-size: 1.6 rem;
+}
+
+.footer__icon-top a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8rem;
+    background: var(--main-color);
+    border-radius: 0.8rem;
+    transition: 0.5s ease;
+}
+
+.footer__icon-top a:hover {
+    box-shadow: 0 0 1rem var(--main-color);
+}
+
+.footer__icon-top a i {
+    font-size: 2.4rem;
+    color: var(--second-bg-color);
+}
